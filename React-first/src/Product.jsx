@@ -1,3 +1,4 @@
+//writing first jxs file
 import React from "react";  //importing react so it will not show the error while converint in jsx.
 
 function Product() {
