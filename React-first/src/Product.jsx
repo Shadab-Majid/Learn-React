@@ -3,7 +3,7 @@ import React from "react";  //importing react so it will not show the error whil
 
 function Product() {
     return (
-        <h1>Shadab Majid</h1>
+        <div><h1>Shadab Majid</h1></div>
     );
 }
 
