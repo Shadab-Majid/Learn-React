@@ -27,6 +27,7 @@ React Folder Structure:
     App.jsx: 
 
     Common important things to know: 
+
     we can only return one div at a time. 
     we have to import React first so when jsx tries to convert code into js on that time when React function will come it will not show the error.
 
@@ -41,7 +42,26 @@ React Folder Structure:
 
     we can use talwind before using talwind class we have to import talwind first then we can use 
 
-    
+For Running a React Project we need to run this command at the project directory : npm run dev 
+
+*. React will react when state changes and this is the main working flow of react. 
+* The useState hook in React is a fundamental tool that allows functional components to manage and update their internal data (state) over time. This "component-specific memory" enables components to be dynamic and interactive, re-rendering automatically when the state changes
+
+* value sharing between components :
+
+we need to define the passing values inside jsx component where we are calling like <Product data={{name:"Shadab", age: "25"}}/>
+
+then in your component in which you have added call the same name inside that component in here we need to add inside Product jsx 
+function Product({data}) {
+
+    return (
+        {data.name}{data.age}
+    )
+}
 
 
- 
+js-topics: 
+
+
+destructuring 
+arrow function 
